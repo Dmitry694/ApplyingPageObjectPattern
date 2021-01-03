@@ -6,5 +6,6 @@
 <p>Теперь реализуем Page Object, который будет связан с главной страницей интернет-магазина.</p> 
 <b>https://stepik.org/lesson/238819/step/3?unit=211271</b>
 
-
-
+### 3. Первый тест на основе Page Object ###
+<p>Перепишем тест с помощью Page Object.</p>
+https://stepik.org/lesson/238819/step/4?unit=211271
