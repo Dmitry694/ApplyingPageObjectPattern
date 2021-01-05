@@ -38,7 +38,19 @@
 
 ### 7. Реализация LoginPage и проверка login_url, login_form, register_form check ###
 
-<b>https://stepik.org/lesson/238819/step/8?unit=211271</b>
-<b>https://stepik.org/lesson/238819/step/9?unit=211271</b>
+<p><b>https://stepik.org/lesson/238819/step/8?unit=211271</b></p>
+<p><b>https://stepik.org/lesson/238819/step/9?unit=211271</b></p>
+
+### 8. Задание: добавление в корзину со страницы товара ###
+
+Представьте, что вы работаете тестировщиком-автоматизатором в IT-отделе интернет-магазина. QA Lead поручил вам задание автоматизировать тестовый сценарий.
+
+<p><b>https://stepik.org/lesson/201964/step/2?unit=176022</b></p>
+
+>Чтобы после выполнениния задания увидеть проверочный код в консоли, запускайте PyTest с параметром -s:
+>
+>pytest -s test_foo.py
+
+
 
 
