@@ -1,6 +1,7 @@
 from .base_page import BasePage
 from .locators import ProductPageLocators
 
+
 class ProductPage(BasePage):
     def add_product_to_basket(self):
         button = self.browser.find_element(*ProductPageLocators.ADD_TO_BASKET)
@@ -15,6 +16,10 @@ class ProductPage(BasePage):
         cost_basket = self.browser.find_element(*ProductPageLocators.BASKET_VALUE).text
         price_item = self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE).text
         assert cost_basket == price_item, "Different basket and product prices"
+
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE), \
+            "Success message is presented, but should not be"
 
 
 
