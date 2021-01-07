@@ -21,7 +21,7 @@ from .pages.product_pages import ProductPage
 #    page.product_comparison_actual_and_added_in_basket()
 #    page.cost_basket_is_same_as_price_item()
 
-
+@pytest.mark.xfail(reason="Success message is presented, but should not be")
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/"
     page = ProductPage(browser, link)
@@ -29,5 +29,9 @@ def test_guest_cant_see_success_message_after_adding_product_to_basket(browser):
     page.add_product_to_basket()
     page.should_not_be_success_message()
 
-
+def test_guest_cant_see_success_message(browser):
+    link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/"
+    page = ProductPage(browser, link)
+    page.open()
+    page.should_not_be_success_message()
 
