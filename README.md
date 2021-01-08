@@ -63,5 +63,9 @@
 <p><b>https://stepik.org/lesson/201964/step/5?unit=176022</b></p>
 <p><b>https://stepik.org/lesson/201964/step/6?unit=176022</b></p>
 
+### 11. Улушчаем наши тесты ###
+Плюсы наследования: пример
+
+<p><b>https://stepik.org/lesson/201964/step/8?unit=176022</b></p>
 
 
