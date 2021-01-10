@@ -34,3 +34,10 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
     page.open()
     page.checking_basket()
 
+
+@pytest.mark.xfail(reason="Basket [button] present in the header, but it shouldn't be")
+def test_guest_cant_see_basket_button_at_main_page_in_head(browser):
+    link = "http://selenium1py.pythonanywhere.com/"
+    page = BasketPage(browser, link)
+    page.open()
+    page.cant_see_basket_button_in_header()

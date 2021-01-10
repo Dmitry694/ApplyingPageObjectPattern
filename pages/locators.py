@@ -25,3 +25,4 @@ class BasePageLocators():
 class BasketPageLocators():
     BASKET_LINK = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.basket-mini.pull-right.hidden-xs > span > a")
     EMPTY_BASKET_TEXT = (By.CSS_SELECTOR, "#content_inner > p")
+    BASKET_BUTTON_IN_HEADER = (By.CSS_SELECTOR, "#default > header > div.page_inner > div > div.basket-mini.pull-right.hidden-xs > span > a")
