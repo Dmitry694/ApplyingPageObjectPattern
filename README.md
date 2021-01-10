@@ -68,4 +68,7 @@
 
 <p><b>https://stepik.org/lesson/201964/step/8?unit=176022</b></p>
 
+### 12. Задание: наследование и отрицательные проверки ###
+<p><b>https://stepik.org/lesson/201964/step/10?unit=176022</b></p>
+
 
